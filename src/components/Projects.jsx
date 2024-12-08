@@ -40,7 +40,7 @@ const projectsData = [
     image: image6, 
     title: "Hotel",
     description: "Dashboard Hotel",
-    technologies: ["Php objet"],
+    technologies: ["Php objet", "Phpmyadmin"],
     link: "https://github.com/flodday/hotel"  
   }
 ];
