@@ -41,7 +41,7 @@ const projectsData = [
     title: "Hotel",
     description: "Dashboard Hotel",
     technologies: ["Php objet"],
-    link: "https://fdide.v70208.campus-centre.fr/"  
+    link: "https://github.com/flodday/hotel"  
   }
 ];
 
