@@ -2,6 +2,8 @@ import image1 from "/public/image1.png";
 import image3 from "/public/image3.png";
 import image4 from "/public/image4.png";
 import image5 from "/public/image5.png";
+import image6 from "/public/image6.png";
+
 
 import { motion } from "framer-motion";
 
@@ -17,7 +19,7 @@ const projectsData = [
     image: image3, 
     title: "Grand Angle",
     description: "Plateforme Responsive visiteur d'une galerie d'art multilangue",
-    technologies: ["Css", "Php", "Github"],
+    technologies: ["Css", "Php procédural ", "Github"],
     link: "https://github.com/alt-ju/grand-angle"  
   },
   {
@@ -33,6 +35,13 @@ const projectsData = [
     description: "Portfolio CDA",
     technologies: ["REACT", "VITE", "FramerMotion"],
     link: "https://github.com/flodday/portfolio"  
+  },
+  {
+    image: image6, 
+    title: "Hotel",
+    description: "Dashboard Hotel",
+    technologies: ["Php objet"],
+    link: "https://fdide.v70208.campus-centre.fr/"  
   }
 ];
 
