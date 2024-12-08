@@ -1,6 +1,8 @@
 import image1 from "/public/image1.png";
 import image3 from "/public/image3.png";
 import image4 from "/public/image4.png";
+import image5 from "/public/image5.png";
+
 import { motion } from "framer-motion";
 
 const projectsData = [
@@ -16,14 +18,21 @@ const projectsData = [
     title: "Grand Angle",
     description: "Plateforme Responsive visiteur d'une galerie d'art multilangue",
     technologies: ["Css", "Php", "Github"],
-    link: "https://github.com/alt-ju/grand-angle"  // Lien vers Grand Angle
+    link: "https://github.com/alt-ju/grand-angle"  
   },
   {
     image: image4, 
     title: "Color Recognition",
     description: "Outil de détection de couleur via la caméra",
     technologies: ["Python"],
-    link: "https://github.com/flodday/python_learning-color-recognition-"  // Lien vers Color Recognition
+    link: "https://github.com/flodday/python_learning-color-recognition-"  
+  },
+  {
+    image: image5, 
+    title: "Portfolio",
+    description: "Portfolio CDA",
+    technologies: ["REACT", "VITE", "FramerMotion"],
+    link: "https://github.com/flodday/portfolio"  
   }
 ];
 
